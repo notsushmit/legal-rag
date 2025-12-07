@@ -17,7 +17,7 @@ The system uses **Google AI Studio** for LLM generation (you must supply your fr
 ## Project Structure
 
 ```
-legal-rag-vibe/
+legal-rag/
 ├── README.md
 ├── .env.example
 ├── requirements.txt
