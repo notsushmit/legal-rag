@@ -1,4 +1,4 @@
-# legal-rag-vibe
+# Legal Assistant RAG ChatBot
 
 A Python-based Retrieval-Augmented-Generation (RAG) legal chatbot for Indian legal documents.
 
