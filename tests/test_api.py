@@ -1,5 +1,5 @@
 """
-Integration and unit tests for legal-rag-vibe.
+Integration and unit tests for Legal Assistant RAG Chatbot.
 
 Tests cover:
 - API endpoints
@@ -27,7 +27,7 @@ def test_root_endpoint():
     response = client.get("/")
     assert response.status_code == 200
     data = response.json()
-    assert data["name"] == "legal-rag-vibe"
+    assert data["name"] == "Legal Assistant RAG Chatbot"
     assert "endpoints" in data
 
 

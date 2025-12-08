@@ -1,5 +1,5 @@
 """
-Configuration module for legal-rag-vibe.
+Configuration module for Legal Assistant RAG Chatbot.
 
 Reads environment variables and provides centralized configuration
 for all modules including Google AI Studio credentials, ChromaDB settings,
@@ -59,7 +59,7 @@ class Config:
     
     # Download Configuration
     DOWNLOAD_DELAY: float = 1.0  # seconds between requests
-    USER_AGENT: str = "legal-rag-vibe/1.0 (Educational Research Tool)"
+    USER_AGENT: str = "legal-assistant-rag/1.0 (Educational Research Tool)"
     MAX_RETRIES: int = 3
     
     @classmethod

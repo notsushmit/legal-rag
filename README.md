@@ -1,10 +1,10 @@
-# legal-rag-vibe
+# Legal Assistant RAG Chatbot
 
 A Python-based Retrieval-Augmented-Generation (RAG) legal chatbot for Indian legal documents.
 
 ## Overview
 
-**legal-rag-vibe** ingests authoritative Indian legal documents (statutes and judgments), indexes them into a local vector database (ChromaDB), and provides three primary capabilities:
+**Legal Assistant RAG Chatbot** ingests authoritative Indian legal documents (statutes and judgments), indexes them into a local vector database (ChromaDB), and provides three primary capabilities:
 
 1. **Legal Research Assistant** — Summaries, notes, and case studies from retrieved legal documents
 2. **Judgment Simulation/Reference** — Hypothetical or real-case judgment-style analysis (clearly labeled as non-legal advice)
@@ -17,7 +17,7 @@ The system uses **Google AI Studio** for LLM generation (you must supply your fr
 ## Project Structure
 
 ```
-legal-rag-vibe/
+legal-assistant-rag/
 ├── README.md
 ├── .env.example
 ├── requirements.txt
@@ -386,8 +386,8 @@ Logs are stored as JSON files and can be exported for human review using admin u
 A `Dockerfile` is provided for containerized deployment:
 
 ```bash
-docker build -t legal-rag-vibe .
-docker run -p 8000:8000 --env-file .env legal-rag-vibe
+docker build -t legal-assistant-rag .
+docker run -p 8000:8000 --env-file .env legal-assistant-rag
 ```
 
 ---

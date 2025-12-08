@@ -1,9 +1,10 @@
 """
-Command Line Interface for legal-rag-vibe.
+Command Line Interface for Legal Assistant RAG Chatbot.
 """
 
 import sys
 import asyncio
+import rich
 from typing import Optional
 from rich.console import Console
 from rich.markdown import Markdown
@@ -32,7 +33,7 @@ console = Console()
 
 def print_header():
     console.print(Panel.fit(
-        "[bold blue]Legal RAG Vibe[/bold blue]\n[italic]AI Legal Assistant for Indian Law[/italic]",
+        "[bold blue]Legal Assistant RAG Chatbot[/bold blue]\n[italic]AI Legal Assistant for Indian Law[/italic]",
         border_style="blue"
     ))
 

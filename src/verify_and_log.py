@@ -1,5 +1,5 @@
 """
-Citation verification and logging module for legal-rag-vibe.
+Citation verification and logging module for Legal Assistant RAG Chatbot.
 
 Provides citation verification to detect hallucinated references,
 logging/audit file writing, and retry logic for failed verifications.

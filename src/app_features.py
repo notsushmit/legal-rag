@@ -1,5 +1,5 @@
 """
-FastAPI application for legal-rag-vibe.
+FastAPI application for Legal Assistant RAG Chatbot.
 
 Exposes three main endpoints:
 - POST /research: Legal research assistant
@@ -33,7 +33,7 @@ from src.verify_and_log import (
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="legal-rag-vibe",
+    title="Legal Assistant RAG Chatbot",
     description="Legal RAG chatbot for Indian law",
     version="1.0.0"
 )
@@ -75,7 +75,7 @@ class APIResponse(BaseModel):
 async def root():
     """Root endpoint with API information."""
     return {
-        "name": "legal-rag-vibe",
+        "name": "Legal Assistant RAG Chatbot",
         "version": "1.0.0",
         "endpoints": ["/research", "/judgment", "/summarize"],
         "status": "running"

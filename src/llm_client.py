@@ -1,5 +1,5 @@
 """
-LLM client for legal-rag-vibe.
+LLM client for Legal Assistant RAG Chatbot.
 
 Calls Google AI Studio generative API with structured request/response parsing
 and safe fallbacks. Handles prompt formatting, generation parameters, and

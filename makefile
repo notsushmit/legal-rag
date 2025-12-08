@@ -1,7 +1,7 @@
 .PHONY: help venv install dev test clean ingest download
 
 help:
-	@echo "legal-rag-vibe Makefile"
+	@echo "Legal Assistant RAG Chatbot Makefile"
 	@echo ""
 	@echo "Available targets:"
 	@echo "  venv       - Create virtual environment"
@@ -28,7 +28,7 @@ test:
 .PHONY: help venv install dev test clean ingest download run-cli
 
 help:
-	@echo "legal-rag-vibe Makefile"
+	@echo "Legal Assistant RAG Chatbot Makefile"
 	@echo ""
 	@echo "Available targets:"
 	@echo "  venv       - Create virtual environment"

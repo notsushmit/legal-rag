@@ -1,5 +1,5 @@
 """
-Ingestion pipeline for legal-rag-vibe.
+Ingestion pipeline for Legal Assistant RAG Chatbot.
 
 Orchestrates the complete ingestion process:
 1. Discovery of PDF files in data directories
@@ -229,7 +229,7 @@ class LegalDocumentIngestor:
 def main():
     """Main ingestion entry point."""
     print("="*60)
-    print("LEGAL-RAG-VIBE INGESTION PIPELINE")
+    print("LEGAL ASSISTANT RAG INGESTION PIPELINE")
     print("="*60)
     
     ingestor = LegalDocumentIngestor()

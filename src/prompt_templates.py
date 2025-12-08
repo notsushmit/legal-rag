@@ -1,5 +1,5 @@
 """
-Prompt templates for legal-rag-vibe.
+Prompt templates for Legal Assistant RAG Chatbot.
 
 Contains textual prompt templates for research, judgment simulation,
 and summarization modes. Templates include system instructions,

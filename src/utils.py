@@ -1,5 +1,5 @@
 """
-Utility functions for legal-rag-vibe.
+Utility functions for Legal Assistant RAG Chatbot.
 
 Provides PDF text extraction with OCR fallback, filename metadata parsing,
 file listing utilities, and text cleaning/normalization functions.

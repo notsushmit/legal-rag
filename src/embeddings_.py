@@ -1,5 +1,5 @@
 """
-Embeddings module for legal-rag-vibe.
+Embeddings module for Legal Assistant RAG Chatbot.
 
 Wrapper for sentence-transformers embeddings model.
 Provides a simple interface to load the model and generate embeddings

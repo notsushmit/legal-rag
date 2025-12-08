@@ -1,5 +1,5 @@
 """
-Retrieval module for legal-rag-vibe.
+Retrieval module for Legal Assistant RAG Chatbot.
 
 Provides vector search functionality with optional metadata filtering
 and reranking capabilities. Returns documents with metadata and distances
