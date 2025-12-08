@@ -1,6 +1,8 @@
 # Legal Assistant RAG Chatbot
 
-A Python-based Retrieval-Augmented-Generation (RAG) legal chatbot for Indian legal documents.
+A Python-based Retrieval-Augmented-Generation (RAG) legal chatbot for Indian Law.
+<img width="1048" height="289" alt="image" src="https://github.com/user-attachments/assets/a4413659-3323-49b4-963c-0ff05b9cd191" />
+
 
 ## Overview
 
